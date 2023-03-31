@@ -1,8 +1,12 @@
 body{
     font-family: 'Roboto Mono', monospace;
-
-}h1{
+    margin: 0px;
+}
+h1{
     font-size: 50px;
+}
+p{
+    color: dimgray;
 }
 .name{
     color: darkorange;
@@ -13,5 +17,45 @@ body{
     margin-left: 2%;
     padding-left: 5%; 
 }.half-width img{
-    width: 100%;
+    width: 100%;    
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 200px;
+}
+ .link-button{
+    text-decoration: none;
+   background-color: darkorange;
+    padding: 10px 25px;
+    font-size: 20px;
+    font-weight: 700px;
+    color: whitesmoke (19, 235, 19);
+    border-radius: 10px orange;
+}
+    .maximize{
+    background-image: url("images/dream-bg.png");
+   background-repeat: no-repeat;
+   background-position: right;
+}.box-shadow{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 7px;
+    height: 85%;
+}.experience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}#Simple{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato,) ;
+    border-image-slice:1;
+}#baby{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan,);
+    border-image-slice:  1;
+}footer p{
+text-align: center;
 }
