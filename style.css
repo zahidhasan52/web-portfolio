@@ -1,6 +1,7 @@
 body{
     font-family: 'Roboto Mono', monospace;
     margin: 0px;
+   
 }
 h1{
     font-size: 50px;
@@ -26,6 +27,7 @@ p{
 section{
     height: 500px;
     padding-bottom: 200px;
+    
 }
  .link-button{
     text-decoration: none;
@@ -44,18 +46,19 @@ section{
     box-shadow: 10px 10px 40px gray;
     border-radius: 7px;
     height: 85%;
+    background-color: azure;
 }.experience-area{
     background-image: url("images/exp-bg.png");
     background-repeat: no-repeat;
     background-position: left;
-}#Simple{
+}#Full-stack{
     border-left: 7px solid;
     border-image: linear-gradient(180deg, lightsalmon, tomato,) ;
-    border-image-slice:1;
-}#baby{
+    border-image-slice: 1;
+}#baby-web{
     border-left: 7px solid;
     border-image: linear-gradient(180deg, blue, cyan,);
-    border-image-slice:  1;
+    border-image-slice: 1;
 }footer p{
 text-align: center;
 }
